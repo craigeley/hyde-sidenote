@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            field noise
+tagline:          'sound | environment'
+description:      'The echo is, to some extent, an original sound. Therein lies the magic and charm in it.'
+url:              http://fieldnoise.com
+baseurl:          /
+
+author:
+  name:           'Craig Eley'
+  url:            https://twitter.com/craigeley
+
+paginate:         5
+
+# Custom vars
+version:          3.0?
+
+github:
+  repo:           https://github.com/craigeley/fieldnoise
+
+gems:
+  - jekyll-paginate
+  - redcarpet
+  - jekyll-gist
+  - pygments.rb
